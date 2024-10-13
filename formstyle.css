@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  label,
+  input,
+  select,
+  button {
+    margin-bottom: 6%;
+  }
+  
+  

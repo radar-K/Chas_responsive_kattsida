@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://httpbin.org/anything" method="post">
+        <label for="fornamn">Förnamn:</label>
+        <input type="text" id="fornamn" name="fornamn" required />
+  
+        <label for="efternamn">Efternamn:</label>
+        <input type="text" id="efternamn" name="efternamn" required />
+  
+        <label for="anvandarnamn">Användarnamn:</label>
+        <input type="text" id="anvandarnamn" name="anvandarnamn" required />
+  
+        <label for="losenord">Lösenord:</label>
+        <input type="password" id="losenord" name="losenord" required />
+  
+        <label for="epost">E-post:</label>
+        <input type="email" id="epost" name="epost" required />
+  
+        <label for="kattras">Favorit-kattras:</label>
+        <select id="kattras" name="kattras" required>
+          <option value="">Välj en kattras</option>
+          <option value="siames">Siames</option>
+          <option value="maine-coon">Maine Coon</option>
+          <option value="perser">Perser</option>
+          <option value="bengal">Bengal</option>
+          <option value="ragdoll">Ragdoll</option>
+        </select>
+  
+        <label>
+          <input type="checkbox" name="godkann" required />
+          Jag godkänner villkoren
+        </label>
+  
+        <button type="submit">Skicka</button>
+      </form>
+    
+</body>
+</html>
